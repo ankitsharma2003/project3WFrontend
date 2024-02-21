@@ -1,0 +1,39 @@
+.Navbars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 40px;
+    height: 70px;
+    width: 100%;
+
+    .left-nav {
+        color: #9B1FE9;
+        cursor: pointer;
+    }
+
+    .rigth-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        cursor: pointer;
+
+        .border-class {
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .border-class-second {
+            border: 3px solid #9B1FE9;
+            color: #9B1FE9;
+            border-radius: 4px;
+            padding: 10px;
+            font-weight: bold;
+        }
+    }
+
+    .icon-butt {
+        font-size: 1.9rem;
+    }
+}

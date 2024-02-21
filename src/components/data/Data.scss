@@ -1,0 +1,90 @@
+.Data {
+    background-color: #EEF2FE;
+    margin-top: 40px;
+    padding-inline: 60px;
+
+    .para-text {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-block: 10px;
+
+        .icon-style {
+            color: #9B1FE9;
+        }
+    }
+
+    .bottom-div {
+        display: block;
+    }
+
+    input,
+    label {
+        display: block;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    label {
+        color: #9B1FE9;
+    }
+
+    input {
+        padding: 8px 24px;
+        border: 0.1 solid black;
+    }
+
+    .input-style {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .button-style {
+        background-color: #9B1FE9;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        margin-top: 14px;
+        padding: 12px 24px;
+        cursor: pointer;
+    }
+
+    .recaptcha {
+        margin-top: 12px;
+    }
+
+    .history {
+        margin-top: 20px;
+    }
+
+    .eth-style {
+        background-color: #0000FF;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        margin-top: 14px;
+        padding: 12px 24px;
+        cursor: pointer;
+    }
+
+    .info {
+        margin-top: 20px;
+        padding: 20px 20px;
+        border: 0.1px solid rgb(174, 166, 166);
+        border-radius: 4px;
+        width: 50%;
+    }
+
+    ul>li {
+        list-style: none;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 10px;
+        padding-block: 5px;
+    }
+}
